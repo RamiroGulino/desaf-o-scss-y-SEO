@@ -1,0 +1,17 @@
+header {
+    background-color: black;
+    height: 10vh;
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .sim {
+            color: orangered;
+            margin: 5px;
+            position: relative;
+            top: 30px;
+        }
+    }
+}

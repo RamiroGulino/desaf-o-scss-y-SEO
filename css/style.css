@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+#index
+main {
+  background-color: black;
+  height: 80vh; }
+  #index
+main h1 {
+    color: black;
+    background-color: orangered;
+    border: solid 2px white;
+    border-radius: 5px; }
+  #index
+main .primera-seccion {
+    padding: 1rem; }
+  #index
+main p {
+    text-align: center;
+    color: orangered;
+    background-color: white;
+    border: solid 3px orangered;
+    border-radius: 4px; }
+  #index
+main h6 {
+    color: orangered;
+    background-color: white;
+    border: solid 3px orangered;
+    border-radius: 4px;
+    text-align: center; }
+
+header {
+  background-color: black;
+  height: 10vh; }
+  header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    header nav .sim {
+      color: orangered;
+      margin: 5px;
+      position: relative;
+      top: 30px; }
+
+footer {
+  background-color: orangered;
+  height: 10vh; }
+  footer input {
+    margin: 10px;
+    padding: 2px;
+    height: 20px; }
+  footer .texto1 {
+    display: inline-block;
+    position: relative;
+    top: 30px;
+    left: -201px; }
+    footer .texto1 .boton {
+      box-shadow: 5px black; }
+  footer .divv {
+    display: inline-block;
+    padding: 3px;
+    margin: 3px;
+    background-color: white;
+    border: solid 2px black;
+    border-radius: 3px; }
+    footer .divv a {
+      color: black;
+      text-decoration: none; }
+
+#contacto
+main {
+  background-color: black;
+  height: 80vh; }
+  #contacto
+main .div2 {
+    display: flex;
+    height: 60vh;
+    justify-content: space-between;
+    align-items: center; }
+    #contacto
+main .div2 .txtc {
+      margin: 5px;
+      height: 40vh;
+      width: 300px; }
+    #contacto
+main .div2 .txt {
+      height: 40vh;
+      width: 300px; }
+    #contacto
+main .div2 .boton {
+      margin: 25px; }

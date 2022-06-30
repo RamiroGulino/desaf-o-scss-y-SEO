@@ -1,0 +1,26 @@
+#contacto
+
+main{
+    background-color: black;
+height: 80vh;
+
+.div2{
+    display: flex;
+    height: 60vh;
+    justify-content: space-between;
+    align-items: center;
+    .txtc{
+        margin: 5px;
+        height: 40vh;
+        width: 300px;
+    }
+    .txt{
+        height: 40vh;
+        width: 300px;
+
+    }
+    .boton{
+        margin: 25px;
+    }
+}
+}
