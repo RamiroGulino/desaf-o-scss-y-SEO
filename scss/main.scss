@@ -3,6 +3,29 @@
     padding: 0;
 }
 
+
+@import './secciones/index';
+@import './secciones/header.scss';
+@import './secciones/footer.scss';
+@import './secciones/contacto.scss';
+
+.grilla-general {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.7fr 1.3fr 1.3fr 0.7fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "header header header"
+        "main main main"
+        "main main main"
+        "footer footer footer";
+        height: 100vh;
+
+
+
+}
+
 @import './secciones/index.scss';
 @import './secciones/header.scss';
 @import './secciones/footer.scss';

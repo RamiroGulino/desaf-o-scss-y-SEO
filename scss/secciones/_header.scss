@@ -1,0 +1,50 @@
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        ". . ."
+        ". . ."
+        ". . .";
+    grid-area: header;
+    background-color: black;
+    height: 15vh;
+    
+    .logo {
+        margin: 10px;
+        display: inline-block;
+    }
+    
+    
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        list-style: none;
+        text-decoration: none;
+    }
+    
+    .navegador {
+        display: inline;
+        color: white;
+        padding: 5px;
+        border: solid 3px white;
+        margin: 4px;
+        border-radius: 4px;
+        text-decoration: none;      
+    }
+    
+    
+    .navegador a{
+        color: white;
+        text-decoration: none;
+        transition: all 0.3;
+    }
+    
+    .navegador a:hover{
+        transform: scale(1.1);
+    }
+}

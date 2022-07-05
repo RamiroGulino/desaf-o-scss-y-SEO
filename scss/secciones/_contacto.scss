@@ -1,0 +1,85 @@
+#contacto
+
+main{
+    background-color: black;
+height: 80vh;
+
+.formulario {
+    display: inline-block;
+    border: solid 2px white;
+    border-radius: 3px;
+    margin-left: 500px;
+    margin-top: 240px;
+    overflow: hidden;
+    padding: 4px;
+    background-color: black;
+    color: white;
+    .nombre {
+        display: inline;
+        padding: 3px;
+        background-color: #222;
+        margin-bottom: 10px;
+        border-radius: 4px;
+        border: solid 2px white;
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    .email {
+        display: inline;
+        padding: 3px;
+        background-color: #222;
+        margin-bottom: 10px;
+        border-radius: 4px;
+        border: solid 2px white;
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    .comentarios {
+        display: inline;
+        padding: 4px;
+        background-color: #222;
+        margin-bottom: 10px;
+        border-radius: 4px;
+        border: solid 2px white;
+        width: 400px;
+        height: 200px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: white;
+    }
+    
+    .boton1 {
+        display: inline;
+        background-color: #222;
+        color: white;
+        padding: 3px;
+        border: solid 1px white;
+        border-radius: 3px;
+        cursor: pointer;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    .boton2 {
+        display: inline;
+        background-color: #222;
+        color: white;
+        padding: 3px;
+        border: solid 1px white;
+        border-radius: 3px;
+        cursor: pointer;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    .boton3 {
+        display: inline;
+        background-color: #222;
+        color: white;
+        padding: 3px;
+        border: solid 1px white;
+        border-radius: 3px;
+        cursor: pointer;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+}
+}
