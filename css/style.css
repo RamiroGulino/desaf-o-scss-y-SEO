@@ -2,58 +2,16 @@
   margin: 0;
   padding: 0; }
 
-#index
 main {
   grid-area: main;
   background-color: #222;
   color: black;
-  height: 70vh; }
-  #index
-main .Imagen-main-index {
-    display: block;
-    margin: 45px; }
-  #index
-main .palabras {
-    color: rgba(230, 218, 218, 0.527);
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: baseline;
-    margin: 10px; }
-  #index
-main h1 {
-    padding: 15px; }
-
-.grilla-general {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 0.7fr 1.3fr 1.3fr 0.7fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas: "header header header" "main main main" "main main main" "footer footer footer";
-  height: 100vh; }
-
-#index
-main {
-  grid-area: main;
-  background-color: #222;
-  color: black;
-  height: 70vh; }
-  #index
-main .Imagen-main-index {
-    display: block;
-    margin: 45px; }
-  #index
-main .palabras {
-    color: rgba(230, 218, 218, 0.527);
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: baseline;
-    margin: 10px; }
-  #index
-main h1 {
-    padding: 15px; }
+  height: 80vh; }
+  main div .carousel-inner {
+    top: 2.5vh; }
+  main img {
+    max-height: 75vh;
+    max-width: 4fr; }
 
 .header {
   display: grid;
@@ -64,10 +22,12 @@ main h1 {
   grid-template-areas: ". . ." ". . ." ". . .";
   grid-area: header;
   background-color: black;
-  height: 15vh; }
+  height: 10vh; }
   .header .logo {
     margin: 10px;
     display: inline-block; }
+    .header .logo img {
+      max-height: 50px; }
   .header .navbar {
     display: flex;
     flex-direction: row;
@@ -94,7 +54,7 @@ main h1 {
   grid-area: footer;
   background-color: black;
   color: white;
-  height: 20vh; }
+  height: 10vh; }
   .footer .redes-sociales {
     display: inline-block;
     margin-left: 20px;
@@ -115,12 +75,10 @@ main h1 {
   .footer .ani:hover {
     transform: scale(1.1); }
 
-#contacto
 main {
-  background-color: black;
+  background-color: #222;
   height: 80vh; }
-  #contacto
-main .formulario {
+  main .formulario {
     display: inline-block;
     border: solid 2px white;
     border-radius: 3px;
@@ -130,8 +88,7 @@ main .formulario {
     padding: 4px;
     background-color: black;
     color: white; }
-    #contacto
-main .formulario .nombre {
+    main .formulario .nombre {
       display: inline;
       padding: 3px;
       background-color: #222;
@@ -140,8 +97,7 @@ main .formulario .nombre {
       border: solid 2px white;
       color: white;
       font-family: Georgia, 'Times New Roman', Times, serif; }
-    #contacto
-main .formulario .email {
+    main .formulario .email {
       display: inline;
       padding: 3px;
       background-color: #222;
@@ -150,8 +106,7 @@ main .formulario .email {
       border: solid 2px white;
       color: white;
       font-family: Georgia, 'Times New Roman', Times, serif; }
-    #contacto
-main .formulario .comentarios {
+    main .formulario .comentarios {
       display: inline;
       padding: 4px;
       background-color: #222;
@@ -162,8 +117,7 @@ main .formulario .comentarios {
       height: 200px;
       font-family: Georgia, 'Times New Roman', Times, serif;
       color: white; }
-    #contacto
-main .formulario .boton1 {
+    main .formulario .boton1 {
       display: inline;
       background-color: #222;
       color: white;
@@ -172,8 +126,7 @@ main .formulario .boton1 {
       border-radius: 3px;
       cursor: pointer;
       font-family: Georgia, 'Times New Roman', Times, serif; }
-    #contacto
-main .formulario .boton2 {
+    main .formulario .boton2 {
       display: inline;
       background-color: #222;
       color: white;
@@ -182,8 +135,7 @@ main .formulario .boton2 {
       border-radius: 3px;
       cursor: pointer;
       font-family: Georgia, 'Times New Roman', Times, serif; }
-    #contacto
-main .formulario .boton3 {
+    main .formulario .boton3 {
       display: inline;
       background-color: #222;
       color: white;
@@ -192,3 +144,47 @@ main .formulario .boton3 {
       border-radius: 3px;
       cursor: pointer;
       font-family: Georgia, 'Times New Roman', Times, serif; }
+
+.discografia {
+  display: flex;
+  flex-direction: row; }
+  .discografia .valentin {
+    margin: 5px; }
+
+.discografia2 {
+  display: flex;
+  flex-direction: row;
+  top: 380px; }
+  .discografia2 .valentin {
+    margin: 5px; }
+
+.fechas {
+  display: inline-block;
+  border: solid 2px white;
+  border-radius: 3px;
+  margin-left: 500px;
+  margin-top: 240px;
+  overflow: hidden;
+  padding: 4px;
+  background-color: black;
+  color: white; }
+
+.historia {
+  display: inline-block;
+  border: solid 2px white;
+  border-radius: 3px;
+  margin-left: 450px;
+  margin-top: 240px;
+  overflow: hidden;
+  padding: 4px;
+  background-color: black;
+  color: white; }
+
+.grilla-general {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.7fr 1.3fr 1.3fr 0.7fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "header header header" "main main main" "main main main" "footer footer footer";
+  height: 100vh; }

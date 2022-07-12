@@ -3,11 +3,13 @@
     padding: 0;
 }
 
-
 @import './secciones/index';
-@import './secciones/header.scss';
-@import './secciones/footer.scss';
-@import './secciones/contacto.scss';
+@import './secciones/header';
+@import './secciones/footer';
+@import './secciones/contacto';
+@import './secciones/discografia';
+@import './secciones/fechas';
+@import './secciones/historia';
 
 .grilla-general {
     display: grid;
@@ -26,10 +28,7 @@
 
 }
 
-@import './secciones/index.scss';
-@import './secciones/header.scss';
-@import './secciones/footer.scss';
-@import './secciones/contacto.scss';
+
 
 
 

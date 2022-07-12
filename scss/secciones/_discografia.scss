@@ -1,9 +1,16 @@
 .discografia {
-    display: inline-block;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: white;
-    margin-left: 450px;
-    margin-top: 240px;
-    overflow: hidden;
-    background-color: black;
+    display: flex;
+    flex-direction: row;
+    .valentin{
+        margin: 5px;
+    }
+}
+
+.discografia2{
+    display: flex;
+    flex-direction: row;
+    top: 380px;
+    .valentin{
+        margin: 5px;
+    }
 }

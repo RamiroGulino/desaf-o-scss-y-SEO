@@ -2,66 +2,115 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./img/Logo 2Mi.png">
-    <script src="https://kit.fontawesome.com/6e25381fd4.js" crossorigin="anonymous"></script>
-    <title>2 minutos</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./scss/main.scss">
+  <link rel="stylesheet" href="./img/Logo 2Mi.png">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/6e25381fd4.js" crossorigin="anonymous"></script>
+  <title>2 minutos</title>
 </head>
 
 <body>
-    <div class="grilla-general">
-        <!-- Header: Encabezado. -->
-        <header class="header">
-            <div class="logo">
-                <img src="./img/Y6HEOD-t_400x400.png" alt="">
-            </div>
+  <div class="grilla-general">
+    <!-- Header: Encabezado. -->
+    <header class="header">
+      <div class="logo">
+        <a href="../index.html"><img src="../img/Y6HEOD-t_400x400.png" alt=""></a>
+      </div>
 
-            <!-- Menú de navegación -->
-            <div class="navbar">
-                <nav>
-                    <!-- Lista no ordenada -->
-                    <ul>
-                        <li class="navegador">
-                            <a href="./index.html">Inicio</a>
-                        </li>
-                        <li class="navegador"><a class="ani" href="./html/discografia.html">Discografía</a>
-                        </li>
-                        <li class="navegador"><a href="./html/historia.html">Historia</a>
-                        </li>
-                        <li class="navegador"><a href="./html/fechas.html">Fechas</a>
-                        </li>
-                        <li class="navegador"><a href="./html/contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                </nav>
+      <!-- Menú de navegación -->
+      <div class="navbar">
+        <nav>
+          <!-- Lista no ordenada -->
+          <ul>
+            <li class="navegador">
+              <a href="./index.html">Inicio</a>
+            </li>
+            <li class="navegador"><a class="ani" href="./html/discografia.html">Discografía</a>
+            </li>
+            <li class="navegador"><a href="./html/historia.html">Historia</a>
+            </li>
+            <li class="navegador"><a href="./html/fechas.html">Fechas</a>
+            </li>
+            <li class="navegador"><a href="./html/contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Main -->
+    <!-- Preguntar como hacer slider de imágenes -->
+    <main class="main">
+      <!-- Agregar imágenes -->
+      <div class="bootstrap">
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="./img/dos-minutos 1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>2 minutos</h5>
+              <p>35 años punkeando para vos.</p>
             </div>
-        </header>
-        <!-- Main -->
-        <!-- Preguntar como hacer slider de imágenes -->
-        <main class="main">
-            <!-- Agregar imágenes -->
-            <div class="Imagen-main-index"> <img src="./img/dos-minutos 1.jpg" alt=" Dos minutos banda"></div>
-            <div class="palabras">
-                <h1>2 minutos.</h1>
-                <h2>35 años punkeando para vos.</h2>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./img/2-MINUTOS-2020.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>2 minutos</h5>
+              <p>35 años punkeando para vos.</p>
             </div>
-        </main>
-        <!-- Footer -->
-        <footer class="footer">
-            <section>
-                <ul>
-                    <li class="redes-sociales"><a href="https://twitter.com/los2minutos"> <i class="fa-brands fa-twitter-square"></i></a></li>
-                    <li class="redes-sociales"><a href="https://www.facebook.com/los2minutos"> <i class="fa-brands fa-facebook-square"></i></a> </li>
-                    <li class="redes-sociales"><a href="https://www.instagram.com/los2minutos/"> <i class="fa-brands fa-instagram-square"></i></a></li>
-                    <li class="contrataciones">Contrataciones</li>
-                    <li class="derechos-reservados">Derechos reservados</li>
-                </ul>
-            </section>
-        </footer>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/2-minutos-hizo-su-debut___liH7kCh8L_720x0__1.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>2 minutos</h5>
+              <p>35 años punkeando para vos.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </div>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+      <section>
+        <ul>
+          <li class="redes-sociales"><a href="https://twitter.com/los2minutos"> <i
+                class="fa-brands fa-twitter-square"></i></a></li>
+          <li class="redes-sociales"><a href="https://www.facebook.com/los2minutos"> <i
+                class="fa-brands fa-facebook-square"></i></a> </li>
+          <li class="redes-sociales"><a href="https://www.instagram.com/los2minutos/"> <i
+                class="fa-brands fa-instagram-square"></i></a></li>
+          <li class="contrataciones">Contrataciones</li>
+          <li class="derechos-reservados">Derechos reservados</li>
+        </ul>
+      </section>
+    </footer>
+  </div>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
