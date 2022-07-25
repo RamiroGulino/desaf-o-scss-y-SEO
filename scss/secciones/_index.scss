@@ -3,6 +3,7 @@ main {
     background-color: #222;
     color: black;
     height: 80vh;
+    font-family: 'Poppins', sans-serif;
 
     div {
 
@@ -12,11 +13,47 @@ main {
     }
 
     img {
-        max-height: 75vh;
+
+        height: 75vh;
         max-width: 4fr;
 
     }
 
+    @media(max-width: 1024px) {
+
+        img {
+            max-height: 75vh;
+            max-width: 4fr;
+
+        }
+
+    }
+
+
+
+
+
+    @media(max-width: 768px) {
+
+        img {
+            max-height: 75vh;
+            max-width: 4fr;
+
+        }
+
+    }
+
+
+
+    @media(max-width: 425px) {
+
+        img {
+            max-height: 75vh;
+            max-width: 4fr;
+
+        }
+
+    }
 
 
 

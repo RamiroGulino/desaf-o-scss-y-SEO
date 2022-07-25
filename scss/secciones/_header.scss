@@ -11,6 +11,10 @@
     grid-area: header;
     background-color: black;
     height: 10vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+       
+    
     
     .logo {
         margin: 10px;
@@ -19,15 +23,25 @@
             max-height: 50px;
         }
     }
+
+    ul{
+        padding-left: 0rem;
+    }
+    
     
     
     .navbar {
         display: flex;
+        flex-wrap: nowrap;
         flex-direction: row;
         justify-content: flex-end;
         align-items: center;
         list-style: none;
         text-decoration: none;
+        padding-left: 0%;
+        position: absolute;
+        left: 450px;
+        top: 30px;
         
     }
     
@@ -51,4 +65,49 @@
     .navegador a:hover{
         transform: scale(1.1);
     }
+
+
 }
+
+@media(max-width: 1024px) {
+    ul{
+        position: relative;
+        left: -100px;
+       
+        .navegador{
+            margin: 4px;
+            
+        }
+    }
+
+@media(max-width: 768px) {
+    ul{
+        position: relative;
+        left: -200px;
+       
+        .navegador{
+            margin: 4px;
+            font-size: 8px;
+        }
+    }
+    }
+
+
+        }
+
+        @media(max-width: 425px) {
+            ul{
+                position: relative;
+                left: -350px;
+                display: flex;
+                flex-direction: row;
+                
+               
+                .navegador{
+                    margin: 0px;
+                    font-size: 6px;
+                    
+                }
+                
+            } 
+            }

@@ -14,3 +14,71 @@
         margin: 5px;
     }
 }
+
+@media(max-width: 1024px) {
+
+   
+    .discografia  {
+        flex-wrap: wrap;
+        overflow: scroll;
+        height: 35vh;
+        
+    }
+    .discografia2{
+        flex-wrap: wrap;
+        overflow: scroll;
+        height: 35vh;
+        position: absolute;
+        top: 425px;
+
+        
+
+    }
+}
+
+
+
+
+
+@media(max-width: 768px) {
+
+    .discografia  {
+        flex-wrap: wrap;
+        overflow: scroll;
+        height: 35vh;
+        
+    }
+    .discografia2{
+        flex-wrap: wrap;
+        overflow: scroll;
+        height: 35vh;
+        position: absolute;
+        top: 425px;
+
+        
+
+    }
+
+}
+
+
+
+@media(max-width: 425px) {
+
+    .discografia  {
+        flex-wrap: wrap;
+        overflow: scroll;
+        height: 35vh;
+        
+    }
+    .discografia2{
+        flex-wrap: wrap;
+        overflow: scroll;
+        height: 35vh;
+        position: absolute;
+        top: 425px;
+
+        
+
+    }
+}
